@@ -417,6 +417,7 @@ const HomePage = () => {
               Download my resume to learn more about my experience and qualifications
             </p>
             <button
+            onClick={() => window.open("./media/public/C.V.pdf", "_blank")}
               className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 active:scale-[0.98] transition-all duration-200 font-medium text-lg shadow-md"
             >
               <Download className="w-5 h-5" />
